@@ -14,10 +14,21 @@ Before setting up, make sure you have:
    → [claude.ai/code](https://claude.ai/code) or run `npm install -g @anthropic-ai/claude-code`
 
 2. **GitHub CLI** installed and authenticated  
+   
+   macOS:
    ```bash
    brew install gh
+   ```
+   Linux:
+   ```bash
+   sudo apt update && sudo apt upgrade -y gh
+   ```
+   Then log in to GitHub:
+   ```bash
    gh auth login
    ```
+   → See [gh auth login documentation](https://cli.github.com/manual/gh_auth_login) for step-by-step instructions.
+
    Required only if you use `--repo` to fetch PRs from GitHub.
 
 ---
@@ -211,10 +222,21 @@ GitHub PR이나 로컬 파일을 읽고, 대상 독자에 맞게 Cochl 톤으로
    → [claude.ai/code](https://claude.ai/code) 또는 터미널에서 `npm install -g @anthropic-ai/claude-code`
 
 2. **GitHub CLI** 설치 및 로그인  
+
+   macOS:
    ```bash
    brew install gh
+   ```
+   Linux:
+   ```bash
+   sudo apt update && sudo apt upgrade -y gh
+   ```
+   설치 후 GitHub 로그인:
+   ```bash
    gh auth login
    ```
+   → 터미널에서 GitHub 로그인하는 방법은 [공식 문서](https://cli.github.com/manual/gh_auth_login)를 참고하세요.
+
    GitHub PR을 불러오는 `--repo` 옵션을 사용할 때만 필요합니다.
 
 ---
