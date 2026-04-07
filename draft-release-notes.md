@@ -198,3 +198,23 @@ Save to:
 
 Omit `-[style]` if audience is not newsletter. Create the directory if it doesn't exist.
 Show the full content in chat and confirm the file path.
+
+---
+
+## Step 6: GitHub Draft Release (optional)
+
+**Only applies when `--repo` is provided and `--audience docs`.**
+
+After saving the file, ask the user:
+
+> "GitHub draft release를 자동으로 생성할까요? (yes / no)"
+> "Would you like to create a GitHub draft release automatically? (yes / no)"
+
+If yes, run:
+```bash
+gh release create [version] --repo [owner/repo] --draft --title "[version]" --notes-file [saved-file-path]
+```
+
+Then confirm with the draft release URL returned by the command.
+
+If the command fails (e.g. tag already exists, insufficient permissions), show the error message and suggest the user create the release manually on GitHub.
