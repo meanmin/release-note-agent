@@ -1,6 +1,6 @@
 ---
 name: draft-release-notes
-description: Generate Cochl release notes from GitHub PRs or a local file. Usage: /draft-release-notes --repo <owner/repo> OR --file <path> --version <vX.X.X> --audience <docs|newsletter|internal> [--style <launch|monthly>]
+description: "Generate Cochl release notes from GitHub PRs or a local file. Usage: /draft-release-notes --repo <owner/repo> OR --file <path> --version <vX.X.X> --audience <docs|newsletter|internal> [--style <launch|monthly>]"
 ---
 
 Generate Cochl.Sense release notes based on the provided source and audience.
