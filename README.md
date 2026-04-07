@@ -167,7 +167,7 @@ Generated files are saved to `~/release-notes/` with this naming convention:
 This skill is in beta. If something looks off — wrong tone, missing info, confusing output — please share your feedback:
 
 - Open an issue in this repo
-- Or ping the team directly at **support@cochl.ai**
+- Or contact the maintainer directly at **msjang@cochl.ai**
 
 We're iterating on this based on real usage. Your examples and edge cases help a lot.
 
@@ -344,6 +344,6 @@ Key changes:
 이 스킬은 현재 베타 단계입니다. 톤이 맞지 않거나, 내용이 빠지거나, 출력이 이상하다면 알려주세요.
 
 - 이 레포에 Issue 등록
-- 또는 팀에 직접 연락: **support@cochl.ai**
+- 또는 담당자에게 직접 연락: **msjang@cochl.ai**
 
 실제 사용 사례와 엣지 케이스를 기반으로 계속 개선해 나가겠습니다.
